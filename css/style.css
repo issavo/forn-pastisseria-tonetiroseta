@@ -209,7 +209,31 @@ h6,
 
 .page-header {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/pexels-amanda-hemphill-7440420.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-product {
+    margin-bottom: 6rem;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/slider-product.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-about {
+    margin-bottom: 6rem;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/slider-about.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-service {
+    margin-bottom: 6rem;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/slider-service.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-contact {
+    margin-bottom: 6rem;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/slider-contact.png) center center no-repeat;
     background-size: cover;
 }
 
