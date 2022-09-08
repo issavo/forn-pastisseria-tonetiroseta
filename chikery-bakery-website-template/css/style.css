@@ -678,14 +678,14 @@ textarea {
   -webkit-appearance: button;
   font: inherit; }
 
-@font-face {
+/* @font-face {
   font-family: "CooperBlack";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/CooperBlack/CooperBlackd41d.eot?") format("eot"), url("../fonts/CooperBlack/CooperBlack.woff") format("woff"), url("../fonts/CooperBlack/CooperBlack.ttf") format("truetype"), url("../fonts/CooperBlack/CooperBlack.svg") format("svg"); }
+  src: url("../fonts/CooperBlack/CooperBlackd41d.eot?") format("eot"), url("../fonts/CooperBlack/CooperBlack.woff") format("woff"), url("../fonts/CooperBlack/CooperBlack.ttf") format("truetype"), url("../fonts/CooperBlack/CooperBlack.svg") format("svg"); } */
 
 * {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Roboto", serif;
   font-weight: 600; }
 
 html {
@@ -713,7 +713,8 @@ h3 {
   font-size: 24px; }
 
 h4 {
-  font-size: 18px; }
+  font-size: 18px; 
+}
 
 h5 {
   font-size: 14px; }
