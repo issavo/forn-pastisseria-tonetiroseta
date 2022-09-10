@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #EAA636;
+    --primary: #EAA636 !important;
     --secondary: #545454;
     --light: #FDF5EB;
     --dark: #1E1916;
@@ -208,15 +208,15 @@ h6,
 }
 
 .page-header {
-    margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/pexels-amanda-hemphill-7440420.jpg) center center no-repeat;
-    background-size: cover;
+    margin-bottom: 4.5rem !important;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/pexels-amanda-hemphill-7440420.jpg) center center no-repeat !important;
+    background-size: cover !important;
 }
 
 .page-header-product {
-    margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/slider-product.png) center center no-repeat;
-    background-size: cover;
+    margin-bottom: 6rem !important;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/slider-product.png) center center no-repeat !important;
+    background-size: cover !important;
 }
 
 .page-header-about {

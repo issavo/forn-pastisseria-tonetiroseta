@@ -1,12 +1,5 @@
 @charset "UTF-8";
 /*
-    Project: Chikery HTML Template
-    Version: 1.0.1
-    Date Created: 13/06/2019
-    Date Updated: 22/07/2019
-    Developed by: diaryforlife
-*/
-/*
     TABLE OF CONTENT
         1. RESET AND TYPHOGRAPHY
             1.1 reset
@@ -486,9 +479,9 @@
     bottom: 15px;
     left: 15px; }
 
-/*1. RESET AND TYPHOGRAPHY */
+/*1. RESET AND TYPHOGRAPHY 
 html {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
@@ -504,7 +497,6 @@ footer,
 header,
 main,
 menu,
-nav,
 section,
 summary {
   display: block; }
@@ -551,9 +543,9 @@ strong {
 dfn {
   font-style: italic; }
 
-h1 {
+ h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0; } 
 
 mark {
   background-color: #ff0;
@@ -609,7 +601,7 @@ optgroup {
 
 button,
 input {
-  overflow: visible; }
+  overflow: visible; } 
 
 button,
 select {
@@ -647,7 +639,7 @@ legend {
   max-width: 100%;
   padding: 0;
   /* 3 */
-  white-space: normal; }
+  /*white-space: normal; }
 
 textarea {
   overflow: auto; }
@@ -678,11 +670,6 @@ textarea {
   -webkit-appearance: button;
   font: inherit; }
 
-/* @font-face {
-  font-family: "CooperBlack";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/CooperBlack/CooperBlackd41d.eot?") format("eot"), url("../fonts/CooperBlack/CooperBlack.woff") format("woff"), url("../fonts/CooperBlack/CooperBlack.ttf") format("truetype"), url("../fonts/CooperBlack/CooperBlack.svg") format("svg"); } */
 
 * {
   font-family: "Roboto", serif;
@@ -704,7 +691,7 @@ h1, h2, h3, h4, h5, h6 {
     color: inherit; }
 
 h1 {
-  font-size: 48px; }
+  font-size: 56px; }
 
 h2 {
   font-size: 36px; }
@@ -834,7 +821,7 @@ figure {
   color: #f6663f;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 600; }
+  font-weight: 600; }*/
 
 /*2. ELEMENTS */
 html, body {
@@ -2188,7 +2175,7 @@ textarea.form-control {
       content: ',';
       padding-right: 6px; }
     .ps-post--detail .ps-post__tags a:hover {
-      color: #ce873a; }
+      color: #EAA636; }
   .ps-post--detail .ps-post__content p {
     margin-bottom: 20px;
     font-size: 19px;
@@ -2211,7 +2198,7 @@ textarea.form-control {
   margin-right: 10px;
   font-size: 16px; }
   .ps-post--detail-header .ps-post__meta span a {
-    color: #ce873a; }
+    color: #EAA636; }
   .ps-post--detail-header .ps-post__meta span:before {
     content: '';
     position: absolute;
@@ -2224,9 +2211,9 @@ textarea.form-control {
     right: 0;
     height: 15px;
     width: 1px;
-    background-color: #ce873a; }
+    background-color: #EAA636; }
   .ps-post--detail-header .ps-post__meta span:first-child {
-    color: #ce873a; }
+    color: #EAA636; }
   .ps-post--detail-header .ps-post__meta span:last-child:before {
     display: none; }
 
@@ -2302,7 +2289,7 @@ textarea.form-control {
         line-height: 40px;
         font-size: 1.4rem; } }
 
-.ps-breadcrumb {
+/*.ps-breadcrumb {
   padding: 10px 0;
   background-color: transparent; }
   .ps-breadcrumb .breadcrumb {
@@ -2364,7 +2351,7 @@ textarea.form-control {
       .ps-breadcrumb--2 .breadcrumb a:hover {
         color: #ce873a; }
       .ps-breadcrumb--2 .breadcrumb a i {
-        margin-right: 5px; }
+        margin-right: 5px; }*/
 
 .ps-block--testimonial {
   text-align: center; }
@@ -3052,12 +3039,12 @@ textarea.form-control {
   .widget_tags a:hover {
     color: #ce873a; }
 
-.owl-carousel {
+/* .owl-carousel {
   position: relative; }
   .owl-carousel .owl-item img {
     width: auto; }
   .owl-carousel .ps-product {
-    margin-bottom: 10px; }
+    margin-bottom: 10px; } */
 
 .ps-carousel--nav {
   position: relative;
@@ -8148,9 +8135,9 @@ textarea.form-control {
       #homepage-6 .ps-home-booking .form-group--icon {
         margin-bottom: 20px; } }
 
-@inclhahaude media("<xs") {
+/* @inclhahaude media("<xs") {
   #homepage-6 .ps-home-booking {
-    padding: 100px 0 40px; } }
+    padding: 100px 0 40px; } } */
 
 #homepage-6 .ps-home-our-awards {
   display: -webkit-box;
