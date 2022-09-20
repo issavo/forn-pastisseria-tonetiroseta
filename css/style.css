@@ -237,9 +237,9 @@ h6,
     background-size: cover;
 }
 
-.page-header-bread {
+.page-header-product-bread {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/slider-contact.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../products/img/slider/slider-bread.png) center center no-repeat;
     background-size: cover;
 }
 
