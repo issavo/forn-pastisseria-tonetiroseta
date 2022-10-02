@@ -6813,7 +6813,7 @@ textarea.form-control {
     margin-bottom: 0;
     font-size: 19px;
     color: #555;
-    line-height: 45px; }
+    /* line-height: 45px;*/ } 
   .ps-shopping .ps-product__categories li {
     display: inline-block;
     vertical-align: top;
