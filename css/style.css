@@ -6,15 +6,21 @@
     --dark: #1E1916;
 }
 
-h4,
+
 h5,
 h6,
-.h4,
 .h5,
 .h6 {
     font-weight: normal !important;
     font-family: "Roboto", sans-serif !important;
     letter-spacing: 2px !important;
+}
+
+h4,
+.h4{
+    font-weight: normal !important;
+    font-family: "playfair Display", sans-serif !important;
+    letter-spacing: 1.5px !important;
 }
 
 h2.display-6 {
