@@ -264,7 +264,7 @@ img {
 
 
 
-/*.effect-1 {
+.effect-1 {
     position: relative;
     margin-bottom: 30px;
     overflow: hidden;
@@ -320,13 +320,13 @@ img {
     padding: 7px 15px;
     color: #333333;
     background: #ffffff;
-}*/
+}
 
 
 
 /**********************************/
 /********** Effect #2 CSS *********/
-/*********************************
+/*********************************/
 .effect-2 {
     position: relative;
     margin-bottom: 30px;
@@ -404,13 +404,13 @@ img {
     margin: 0 7.5px;
     color: #333333;
     background: #ffffff;
-}*/
+}
 
 
 
 /**********************************/
 /********** Effect #3 CSS *********/
-/*********************************
+/*********************************/
 .effect-3 {
     position: relative;
     margin-bottom: 30px;
@@ -444,7 +444,7 @@ img {
     flex-direction: column;
     padding: 30px;
     text-align: center;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(234, 166, 54, .7);
     transition: .5s;
     transform: scale(0);
     opacity: 0;
@@ -475,7 +475,7 @@ img {
     padding: 7px 15px;
     color: #333333;
     background: #ffffff;
-}*/
+}
 
 
 
@@ -627,7 +627,7 @@ img {
 
 /**********************************/
 /********** Effect #5 CSS *********/
-/*********************************
+/*********************************/
 .effect-5 {
     position: relative;
     margin-bottom: 30px;
@@ -717,12 +717,12 @@ img {
     transform: scale(1);
     opacity: 1;
 }
- */
+ 
 
 
 /**********************************/
 /********** Effect #6 CSS *********/
-/*********************************
+/*********************************/
 .effect-6 {
     position: relative;
     margin-bottom: 30px;
@@ -812,13 +812,13 @@ img {
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 0;
-}*/
+}
 
 
 
 /**********************************/
 /********** Effect #7 CSS *********/
-/*********************************
+/*********************************/
 .effect-7 {
     position: relative;
     margin-bottom: 30px;
@@ -895,13 +895,13 @@ img {
 .effect-7 .effect-text:hover p {
     left: 0;
     opacity: 1;
-}*/
+}
 
 
 
 /**********************************/
 /********** Effect #8 CSS *********/
-/*********************************
+/**********************************/
 .effect-8 {
     position: relative;
     margin-bottom: 30px;
@@ -970,13 +970,13 @@ img {
 
 .effect-8 .effect-text:hover .effect-detail p {
     opacity: 1;
-}*/
+}
 
 
 
 /**********************************/
 /********** Effect #9 CSS *********/
-/*********************************
+/*********************************/
 .effect-9 {
     position: relative;
     margin-bottom: 30px;
@@ -1052,13 +1052,13 @@ img {
 .effect-9:hover .effect-detail p {
     opacity: 1;
     transform: scale(1);
-}*/
+}
 
 
 
 /**********************************/
 /********** Effect #10 CSS *********/
-/*********************************
+/*********************************/
 .effect-10 {
     position: relative;
     margin-bottom: 30px;
@@ -1209,4 +1209,4 @@ img {
 .effect-10:hover .effect-detail p {
     opacity: 1;
     transform: scale(1);
-}*/
+}
