@@ -18,7 +18,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #454545;
     font-weight: 400;
-    background: #ffffff;
+    background: rgba(253, 245, 232, .6);
 }
 
 a {
@@ -444,7 +444,7 @@ img {
     flex-direction: column;
     padding: 30px;
     text-align: center;
-    background: rgba(234, 166, 54, .7);
+    background: rgba(234, 166, 0, .4);
     transition: .5s;
     transform: scale(0);
     opacity: 0;
