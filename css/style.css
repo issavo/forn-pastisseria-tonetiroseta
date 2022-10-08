@@ -265,13 +265,19 @@ h2.display-6 {
 
 .page-header-product-celebration {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../products/img/slider/slider-celebration.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../products/img/slider/slider-celebration.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-product-custom {
+    margin-bottom: 6rem;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../products/img/slider/slider-custom.png) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-product-detail {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),  url(../products/img/slider/slider-product-detail-season.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),  url(../products/img/slider/slider-product-detail-season.png) center center no-repeat;
     background-size: cover;
 }
 
